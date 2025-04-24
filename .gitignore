@@ -1,0 +1,10 @@
+# Ignorar arquivos de log
+*.log
+venv/
+
+# Ignorar diretórios temporários
+temp/
+build/
+
+# Ignorar arquivos de configuração locais
+.env
