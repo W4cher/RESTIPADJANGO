@@ -8,7 +8,7 @@ get_response = requests.get(endpoint)
 
 if get_response.status_code == 200:
     try:
-        print(get_response.json())
+        print(get_response.Data())
     except ValueError:
         print("erro ao decodificar JSON")
 else:
